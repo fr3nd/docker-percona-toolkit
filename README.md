@@ -47,4 +47,3 @@ Included tools
 * pt-upgrade
 * pt-variable-advisor
 * pt-visual-explain
-
