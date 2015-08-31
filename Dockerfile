@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
       rm -rf /tmp/* && \
       rm -rf /var/tmp/*
 
-ENV PERCONA_VERSION 2.2.14
+ENV PERCONA_VERSION 2.2.15
 
 WORKDIR /tmp
 RUN wget https://www.percona.com/downloads/percona-toolkit/${PERCONA_VERSION}/deb/percona-toolkit_${PERCONA_VERSION}_all.deb && \
